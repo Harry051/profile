@@ -1,15 +1,41 @@
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: "Jost", sans-serif;
   font-weight: 200;
+  color:black;
   text-align: center;
+  padding-top: 0px;
   padding-bottom: 15px;
+  margin-top: 0px;
 }
 
-body {
+body{
   background-color: rgb(240, 240, 240);
   font-family: "Jost", sans-serif;
   font-weight: 200;
-  color:rgb(25, 23, 23)
+  color:rgb(25, 23, 23);
+  margin-top: 0px;
+}
+
+.header{
+  text-align: center;
+  position: sticky;
+  background-color: rgb(199, 199, 199);
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.pic{
+  border-radius: 15px 50px;
+}
+
+p{
+  font-size: 17px;
+  padding-top: 10px;
 }
 
 .button {
@@ -19,12 +45,14 @@ body {
   border-radius: 8px;
   font-size: 19.5px;
   font-weight: 200;
-  padding: 8px
-
+  padding: 8px;
+  margin-top: 25px;
 }
 
-p{
-  font-size: 17px;
+.card-button{
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 5px;
 }
 
 .button:hover{
@@ -35,50 +63,42 @@ p{
   transition: .5s;
 }
 
-#icon {
-  font-size: 60px;
-  color: #52AA5E;
-  text-decoration: none;
+h3{
+  margin-left: 0;
+  margin-bottom: 0px;
+  padding-top: 35px;
+  padding-left: 40px;
 }
 
-#icon:hover{
-  color: black;
-  transition: .6s;
-}
-
-.icons{
+.footer-links{
+  list-style: none;
   text-decoration: none;
+  font-weight: heavy;
+  margin-left: 0;
 }
 
 ul {
   list-style: none;
   text-decoration: none;
   font-weight: heavy;
-
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-top: 8px;
 }
 
-.container{
-  width: 800px;
-  margin: 0 auto;
+a{
+  font-size: 60px;
+  color: #52AA5E;
+  text-decoration: none;
 }
 
-.pic{
-  border-radius: 15px 50px;
+a:hover{
+  color: black;
+  transition: .6s;
 }
 
-.card_text_and_button{
-  width: 800px;
-  margin: 0 auto;
-}
-
-.card_links_header{
-  padding-top: 60px;
-  font-size: 20px;
-}
-
-.card_outside_links{
-  padding-bottom: 0px;
-  word-spacing: 30px;
+li{
+  display: inline;
 }
 
 @media (max-width: 960px) {
